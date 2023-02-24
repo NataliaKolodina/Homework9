@@ -9,9 +9,9 @@ string n = Console.ReadLine()!;
 
 Console.Write($"N = {n} -> ");
 Console.WriteLine(NaturalNumbers(n));
-string NaturalNumbers(string num, string start = "1")
+string NaturalNumbers(string num)
 {
-    if (num == start)
+    if (num == "1")
     {
         return num + ".";
     }
